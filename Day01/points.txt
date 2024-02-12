@@ -1,0 +1,117 @@
+TypeError: 'str' object does not support item assignment
+
+https://forms.gle/quS4Etjgxb8YgdJ19
+
+
+Functions
+---------
+
+lambdas
+
+comprehesion  - iterating through a collection using lambda syntaxes
+
+iterator
+
+Generators
+
+coroutines
+
+
+
+
+1. Collections
+2. Functools
+3. iterators
+
+
+
+
+
+
+
+
+Decorator
+
+Collections
+
+Threads
+
+Ordered dictionary
+
+Networking
+
+Docker and Kubernetes 2
+
+Regex and Lambda functions
+
+Web Application - Django, Flask
+
+
+
+
+
+Collections
+-----------
+1. strings
+
+Strings are immutable  - once created we cannot modify the string
+
+
+2. lists
+
+3. dictionaries
+
+4. Tuples
+
+5. sets
+
+
+
+oops
+----
+
+class st:
+
+   def __init__(self, s)
+	self.s = s
+
+   # getter method
+   def disp(self):
+       return self.s
+
+  
+
+name = st("Micheal")   -  immutable
+name.disp()
+
+
+maketrans
+translate
+
+formats
+
+==================================================
+Item                                         Price
+==================================================
+Apples                                        0.40
+Pears                                         0.50
+Cantaloupes                                   1.92
+Dried Apricots (16 oz.)                       8.00
+Prunes (4 lbs.)                              12.00
+==================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
