@@ -1,0 +1,91 @@
+Lists
+------
+1. Lists are ordered collections
+2. They are mutable
+3. They are subscriptable - they can be indexed
+4. collection hetrogenous data
+5. lists memory allocation is not contigious
+6. lists are stored in [ ]
+
+List manipulation functions
+---------------------------
+1. append
+2. clear
+3. copy
+4. count
+5. extend
+6. index
+7. insert
+8. pop
+9. remove
+10. reverse
+11. sort
+
+add
+---
+1. append
+2. extend
+3. insert
+
+Assignment
+-----------
+
+months = ['aug', 'oct', 'dec', 'feb', 'sep', 'jan', 'apr', 'nov', 'mar', 'jun', 'may', 'jul']
+
+# sort it like calendar months
+
+
+
+Dictionary
+----------
+They are also called as associative arrays
+
+arrays
+
+index	 -   0   1   2   3   4
+
+element  -  'a' 'b' 'c' 'd' 'e'
+
+----------------------------------
+
+associative array
+
+0: 'a', 1: 'b', 2: 'c', 3: 'd', 4: 'e'
+
+keys - 0, 1, 2, 3, 4
+
+values - 'a', 'b', 'c', 'd', 'e'
+
+
+keys - user defined 
+       keys are always unique
+
+unordered collection
+mutable
+they are enclosed in {}
+
+
+
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
