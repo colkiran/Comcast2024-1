@@ -1,0 +1,47 @@
+Tuples
+------
+1. tuples are immutable lists
+2. tuples are enclosed in ( )
+
+
+sets 
+----
+1. sets are unordered collection
+2. sets will always have unique values
+3. sets are not subscriptable  - cannot be indexed
+4. they are mutable
+5. sets are enclosed in { }
+
+
+Functions
+---------
+what are functions?
+
+
+Lambdas
+-------
+its anonumous function with a single expression
+
+result of the expression = lambdas var1, var2, var3... : expression
+
+
+Filter and Reduce
+
+Comprehensions
+
+scope of a variable
+
+nested functions
+
+Closures
+
+HOF
+
+Decorators (function decorator)
+
+
+
+
+
+
+
