@@ -1,0 +1,46 @@
+l :[4, 6, 9, 2, 5, 10, 7, 8]
+
+x = 4
+y = 6
+
+x = 6
+y = 9
+
+x = 9
+y = 2
+
+Comprehensions
+--------------
+comprehension is iterating through a collection using lambda syntax
+
+1. list comprehension
+2. dictionary comprehension
+
+
+[[350, 250, 300, 400, 385], [200, 300, 450, 150, 185], [300, 350, 425, 400, 360], [180, 250, 200, 350, 150], [345, 300, 200, 150, 190], [190, 150, 120, 250, 275]]
+
+for loop
+
+[350, 250, 300, 400, 385]
+
+[200, 300, 450, 150, 185]
+[300, 350, 425, 400, 360]
+[180, 250, 200, 350, 150]
+[345, 300, 200, 150, 190]
+
+for
+350, 250, 300, 400, 385, 200, 300, 450, 150, 185
+	
+pass by value 		- immutable 	- string, tuple, int
+pass by reference	- mutable	- list	
+
+Scope of a variable
+--------------------
+Local		- within a block is called lexical or local
+Global		-
+Non Local
+
+install emojis module 
+
+
+
