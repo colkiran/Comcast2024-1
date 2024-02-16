@@ -1,0 +1,88 @@
+Inheritance
+-----------
+
+Abstract Class
+--------------
+
+Frame a rule  - implement abstract class
+
+
+class Student:
+
+   def AttendAllClasses(self):
+	pass
+
+   def ApplyExam(self):
+	pass
+	
+
+class EightStd(Student):
+
+
+Packages and Modules
+--------------------
+
+Modules -  same as library, in python any python file can be considered as a module
+
+Package
+-------
+
+XML(folder or directory)    - package
+-------------------------
+xml_read_dom	
+xml_write_dom
+
+xml_read_sax
+xml_write_sax
+
+2.x  - Packages were compared with classes
+
+class has a constructor (__init__) that gets executed first
+
+in a package also there is a file __init__.py file that gets executed first (mandatory to have a __init__.py file)
+
+
+3.x
+----
+__init__.py is not mandatory
+
+
+
+Modules
+-------
+IBM
+---
+xml_read
+
+Wipro
+-----
+xml_read
+
+
+import IBM.xml_read as x
+import Wipro.xml_read as y
+
+
+import mymodule
+
+1. if the module is found then converts the module to byte code (from .py to .pyc)
+   pyc - compiled copy
+
+2. the .pyc file will be stored in __pycache__ folder
+
+3. There are locations for us to place the modules  
+
+4. there is a comparison between .py and pyc file (python expects .pyc file to have the latest date and time of modification)
+
+
+
+
+
+Flavours of Python
+------------------
+1. CPython		- currently using
+2. Jython		- convert python code to JAVA
+3. Iron Python		- Use CLI code of donet in python
+
+
+	

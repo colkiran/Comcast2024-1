@@ -1,0 +1,217 @@
+Mera bharath mahan
+Hello 
+apples from ooty
+Hi
+oranges from kanpur
+India is great
+
+-----------------------------------------
+Hello
+apples from ooty
+Hi
+---------------------
+Mera bharath mahan
+oranges from kanpur
+India is great
+
+
+-------------------------------------
+
+Assignment
+----------
+1. write a function decorator that will display the time taken by a function to execute
+
+write two deocorators
+
+1. decorator1 will display
+
+	-----------------------
+	
+2. decorator2 will display
+	
+	your name
+
+3. decorator1 will display 
+
+	------------------------
+
+output 	
+   ---------------------------
+	Micheal 
+   ---------------------------
+
+call
+@dec1
+@dec2
+def fun(gname):
+   print(gname)
+
+
+Assignment - 2  
+
+@test(arg1, arg2, arg3)
+def fun(gname)
+   print(f"Hello {gname}")
+
+
+
+
+Assignment - 3
+
+class Player:
+    def __init__(self, name, age):               # constructor
+        print(f"Ctor called.......")
+        self.name = name
+        self.age = age
+
+    def get_details(self):
+        print(f"Name is :{self.name}\nAge is {self.age}")
+	
+
+ply1 = Player("Virat", "24/06/1992")
+
+
+create a class method and pass the dob and convert it into age and call the __init__ method
+
+
+Assignment - 4
+
+overload all the arithmatic operators
++, -, *, /, //
+
+
+---------------------------------------------------------------------------------
+
+Operator overloading
+--------------------
++	= __sum__	- slang of calling it as magic method
+-	= __sub__
+
+
+-------------------------------------------------------------------------------
+
+Overload two operators
+
+1. equalto (__eq__) mandatory
+2. any other comparison operator (greater than >)
+
+from collection 
+
+
+OOPS
+----
+what is oops?
+why do we need oops?
+
+
+1. Inheritance 		-
+
+Add new rules into the existing business or override old rules with new rules
+
+
+Trafic_rules
+
+not wearing helmet
+   fine - Rs. 500
+
+for signal jumping
+   fine -  Rs. 250
+
+
+TraficRules2024(Trafic_rules):
+
+   not wearing helmet
+       fine - Rs. 5000 + 3 days of imprisonment
+
+
+
+
+2. Polymorphism
+
+
+
+3. Abstraction
+4. Encapsulation
+
+
+class Animal:
+
+  def eat(self):
+     print("Animals eat...")
+
+
+class Lion(Animal):
+
+  def makeNoise(self):
+	print("roar roar.....")
+
+
+class Duck(Animal):
+
+  def makeNoise(self):
+	print("quak quak.....")
+
+
+lion = Lion()
+duck = Duck()
+
+def MakeSound(obj)
+   obj.makeNoise()
+
+
+
+MakeSound(lion)
+MakeSound(duck)
+
+-------------------------------------------------------------------
+
+Every object that we create for a class will have dictionary associated with it
+
+__dict__ = will have all the instance variable details
+
+
+class attribute or class variable
+--------------------------------
+
+variables that declared inside the class but outside the methods
+
+class variables are static
+
+class variables values are same across objects
+
+class variables are accessed using class name
+
+-----------------------------------------------------------
+
+class method - factory pattern
+
+
+
+
+
+
+
+
+Iterators
+Generators
+Coroutines
+
+Regex
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

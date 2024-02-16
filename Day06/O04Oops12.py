@@ -1,0 +1,27 @@
+
+class Product:
+    def __init__(self, price):
+        self.__price = price
+
+    @property
+    def price(self):
+        print("getter called......")
+        return self.__price             # private variable
+
+    @price.setter
+    def price(self, prc):
+        print("setter called......")
+        self.__price = prc
+
+    @price.deleter
+    def price(self):
+        print("deleter called.....")
+        self.__price = 0
+
+
+coke = Product(60)
+print(coke.price)
+coke.price = 125
+print(coke.price)
+del coke.price
+print(coke.price)
