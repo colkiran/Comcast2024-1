@@ -1,0 +1,149 @@
+Packages are compared with classes
+
+in packages we have a __init__.py file
+
+in classes we have a method called  __init__()
+
+import mymodule
+
+import mymodule as m
+
+# from module we can import functions and classes
+
+from mymodule import greet
+
+from mymodule import Player
+
+# from package how to import modules
+
+from mypackage import mymodule
+
+from mypackage import *
+
+-----------------------------------------------------------------------
+
+mypackage
+
+  a. mymodule01
+	math.py		not to be imported
+	numpy.py	not to be imported
+  b. mymodule02
+	pandas.py	not to be imported
+  c. mymodule03
+  d. mymodule04
+  e. mymodule05
+
+
+from mypackage import mymodule03
+
+from mypackage import *
+
+__init__.py - scripts
+
+python -m pip install --upgrade build
+
+pip uninstall comcast-package
+
+pip install comcase-package----.whl
+
+-------------------------------------------------------------------------
+
+Iterators   	- any iterable object
+
+
+Generators
+----------
+comprehension will return the entire list
+
+Generators will return one element at a time
+
+Coroutines
+
+
+Regular Expression
+------------------
+intermediate and advanced level of matching data or filtering
+
+* and ?
+
+*.txt		-	* represent a series of characters - alphabetic, numbers, 			  special characters
+
+?a*.txt		-	? represents a single character 
+
+
+* represent a series of characters - alphabetic, numbers, special characters
+
+
+apply filters seperately for 
+
+1. alphabets
+
+2. numbers 
+
+3. special characters
+
+regular expressions
+-------------------
+$ - starts with
+
+$t\w+ - stronger
+
+Basic Regex
+-----------
+.	-	Single character (alphabetic, numbers, special characters)
+
+^	- 	begning of the string
+
+$	-	End of the string
+
+*	-	zero or more occurance of a character
+
+?	- 	zero or one occurance of character 
+
++	-	one or more occurance
+
+{n}	-	exactly n times
+
+{n,}	-	atleast n times
+
+{n, m}  - 	min n and max m times
+
+[]	-	character class
+
+()	-	grouping
+
+|	-	Alternation
+
+\	-	escape (supress the meaning of special characters)
+
+
+License Number
+--------------
+lno = LCNO-KAR-05-2012-0034
+
+LCNO- 	=	no changed
+
+KAR- 	=     	KAR, KER, TND, TEL, APN, MAH
+
+05-	=	01-73	(no 00)
+
+2012-	=	2000+
+
+0034	=	0001 - 9999 (no 0000)
+
+
+res = re.search(r'LCNO-()-()-()', lno)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
