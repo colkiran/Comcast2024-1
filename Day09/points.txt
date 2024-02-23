@@ -1,0 +1,25 @@
+Functools
+---------
+['GenericAlias', 'RLock', 'WRAPPER_ASSIGNMENTS', 'WRAPPER_UPDATES',  'cache', 'cached_property', 'cmp_to_key', 'get_cache_token', 'lru_cache', 'namedtuple', 'partial', 'partialmethod', 'recursive_repr', 'reduce', 'singledispatch', 'singledispatchmethod', 'total_ordering', 'update_wrapper', 'wraps']
+
+reduce()
+--------
+We'll start with a classic. A function and an iterable are passed to the reduce(function, sequence) function. It applies the supplied function to all members of the iterable in a cumulative manner from left to right before returning a single value.
+
+lru_cache()
+-----------
+
+FLASK
+-----
+micro webframe work in python.
+
+developed by Armin Ronacher
+
+WSGI - Webserver Gateway Interface
+
+
+
+
+
+
+
